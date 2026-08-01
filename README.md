@@ -26,6 +26,7 @@ formalise what the exercise already demonstrated.
 | *Regular Expressions Cookbook* | Pattern reference |
 | [ss64.com](https://ss64.com/) | Quick syntax lookup |
 | [commandlinefu.com](https://www.commandlinefu.com/commands/browse) | Idiomatic one-liners in the wild |
+| [Duke HTS2018 Unix shell materials](https://people.duke.edu/~ccc14/duke-hts-2018/index.html) | Supplementary applied practice using real bioinformatics data; Bash/GNU-oriented, so syntax and portability are verified separately |
 
 ## Progress
 
