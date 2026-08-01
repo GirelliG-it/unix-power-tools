@@ -30,26 +30,19 @@ formalise what the exercise already demonstrated.
 
 ## Progress
 
-| # | Topic | Exercise | Status |
-|---|---|---|---|
-| 1 | `ed` — line addressing, basic editing | Interactive editing session | Done |
-| 2 | `grep` — flags and pattern selection | Filtering log lines | Done |
-| 3 | `sed` — substitution (`s///`) | Field replacement | Done |
-| 4 | `sed` — address ranges and negation | Selective line editing | Done |
-| 5 | `sed` — capture groups and backreferences | Extract endpoint paths from access log | Done |
-| 6 | `sed` — case conversion (`\U`, `\L`) | Normalising text case | Done |
-| 7 | `sed` — insert, append, change | Injecting header lines | Done |
-| 8 | `awk` — fields, `NR`, `OFS` | Column selection and reformatting | Done |
-| 9 | `awk` — arithmetic and compound conditions | Filtering on numeric criteria | Done |
-| 10 | `awk` — associative arrays | Sum numeric field per key (`districts.txt`) | In progress |
-| 11 | Shell expansion and quoting | Quoting pitfalls in inline `awk` programs | Planned |
-| 12 | `awk` — loops and control flow | — | Planned |
-| 13 | `awk` — user-defined functions | — | Planned |
-| 14 | `sed` — hold space and multiline commands | — | Planned |
-| 15 | `awk` — `getline`, `system`, command-line arguments | — | Planned |
-| 16 | Capstone: structured extraction from OCR text | Separating inline numeric data from question markers | Planned |
+This table records exercises that have been refreshed, reconstructed, and committed
+to this repository. Earlier practice exercises are added only after they have been
+reviewed and rebuilt.
 
-Rows 12 onward are provisional and will be revised as the material dictates.
+| # | Tool | Topic | Exercise | Status |
+|---|---|---|---|---|
+| 1 | `sed` | Substitution (`s///`) and external scripts (`-f`) | Expand state abbreviations using [`sed/expand-states.sed`](sed/expand-states.sed) and [`data/list`](data/list) | Reconstructed |
+
+### Current position
+
+- **Learning frontier:** `awk` associative arrays, accumulation, and `END`.
+- **Repository reconstruction:** proceeding through selected earlier exercises one at a time.
+- **Future topics:** added as the material dictates rather than listed provisionally.
 
 ## Structure
 
