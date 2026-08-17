@@ -37,6 +37,7 @@ reviewed and rebuilt.
 | # | Tool | Topic | Exercise | Status |
 |---|---|---|---|---|
 | 1 | `sed` | Substitution (`s///`) and external scripts (`-f`) | Expand state abbreviations using [`sed/expand-states.sed`](sed/expand-states.sed) and [`data/list`](data/list) | Reconstructed |
+| 2 | `sed` | Capture groups, backreferences, and greedy matching | Extract endpoint paths using [`sed/extract-endpoints.sed`](sed/extract-endpoints.sed) and [`data/access.log`](data/access.log) | Reconstructed |
 
 ### Current position
 
@@ -63,7 +64,7 @@ Exercises are named by topic, not sequence number:
 
 ```
 awk/associative_arrays.sh
-sed/capture_groups.sh
+sed/extract-endpoints.sed
 ```
 
 Commits are one per completed exercise, prefixed by tool:
