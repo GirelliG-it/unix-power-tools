@@ -1,0 +1,10 @@
+# Global settings
+
+   
+	
+  # Optional settings
+	# Another comment
+HOST=localhost
+  PORT=8080
+MODE=fast # keep this inline comment
+LABEL="a#b"
