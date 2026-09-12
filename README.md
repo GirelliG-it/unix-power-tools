@@ -39,6 +39,7 @@ reviewed and rebuilt.
 | 1 | `sed` | Substitution (`s///`) and external scripts (`-f`) | Expand state abbreviations using [`sed/expand-states.sed`](sed/expand-states.sed) and [`data/list`](data/list) | Reconstructed |
 | 2 | `sed` | Capture groups, backreferences, and greedy matching | Extract endpoint paths using [`sed/extract-endpoints.sed`](sed/extract-endpoints.sed) and [`data/access.log`](data/access.log) | Reconstructed |
 | 3 | `sed` | Pattern addresses and deletion (`d`) | Remove empty and comment lines using [`sed/clean-config.sed`](sed/clean-config.sed) and [`data/server.conf`](data/server.conf) | Reconstructed |
+| 4 | `sed` | Blank character class, anchors, and multiple deletion commands | Remove empty or spaces/tabs-only lines and indented full-line comments, preserving assignments and inline comments, using [`sed/remove-blank-and-comment-lines.sed`](sed/remove-blank-and-comment-lines.sed) and [`data/log-list`](data/log-list) | Verified |
 
 ### Current position
 
